@@ -11,12 +11,8 @@ import Button from './Button/Button.js';
 function App() {
   return (
     <div className="App">
-
-      <Cards/>
-      <div className='container page-section'>asd</div>
       <City/>
       <Menu/>
-
       <div id='about' className='container'>
           <div id='background' className='container'></div>        
           
@@ -48,7 +44,10 @@ function App() {
             </div>  
           </div>
       </div>      
-      <div className='container'></div>
+      <div className='container'>
+      <Cards/>
+      
+      </div>
     </div>
   );
 }
