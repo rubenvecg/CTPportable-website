@@ -1,0 +1,97 @@
+@keyframes slide{
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+#background{
+    background-image: url(/img/wave_background.svg);
+    background-size: contain;
+    transform: scale(3, 1.2);    
+    position: absolute;
+    z-index: -2;    
+}
+
+
+#title{
+    animation: slide 13s linear infinite;
+}
+
+
+.grid-container{
+    position: relative;
+    top: 10%;
+    left: 5%;   
+}
+
+.main-grid{
+    display: grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 1fr 406px 1fr;
+    grid-template-areas: 
+    'title title title'
+    'left-grid middle-grid right-grid';
+    width: 90%;
+    height: 80%;
+    align-items: center;
+    justify-content: center; 
+    grid-gap: 20px;
+    
+}
+
+
+
+.main-grid h1, p{
+    text-align: center;
+    font-family: 'ocraExt';
+     
+    vertical-align: middle;
+}
+
+.main-grid h1{
+    color: #FFF181;
+    vertical-align: middle;
+}
+
+.main-grid p{
+    color: #ffffff; 
+    text-align: justify;
+}
+
+.inner-grid{
+    text-align: center;
+    display: grid;
+}
+
+
+#title{
+    grid-area: title;      
+}
+
+
+#left-grid{
+    grid-area: left-grid;
+    grid-template-rows: 40% 1fr;
+    
+}
+
+#middle-grid{
+    grid-area: middle-grid;
+    grid-template-rows: 390px 1fr;
+}
+
+#middle-grid div{
+    padding: 0px;
+}
+
+#right-grid{
+    grid-area: right-grid;
+    grid-template-rows: 30% 1fr;    
+}
+
+#left-grid, #right-grid{
+    grid-gap: 20px;
+}
+
+#features{
+    overflow: hidden;
+}

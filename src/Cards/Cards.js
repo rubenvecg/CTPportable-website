@@ -4,14 +4,8 @@ import 'csshake/dist/csshake.min.css';
 // import './img/index.html'
 
 const Cards = (props) => {
-    return (        
-        <div className='container'>
-            <div id='sun-container' className='container'>
-                <div id='sun-offset'></div>
-                <div id='sun'></div>
-            </div>
-
-            <div class="container flex-grid-thirds">
+    return (               
+            <div id='Cards' class="container flex-grid-thirds">
                 <div class="col parent">
                     <img class="card1 shake-slow" src="/img/card1.gif"/>
                     <img class="button-card shake-slow" src="/img/view.png"/>
@@ -26,9 +20,8 @@ const Cards = (props) => {
                     <img class="button-card shake-slow" src="/img/contact.png"/>
                 </div>
             </div>
-            <div className="footer">
-            </div>
-        </div>
+            
+        
     );
 }
 
