@@ -2,15 +2,18 @@ import React from 'react';
 import './App.css';
 import City from './City/City.js';
 import Menu from './Menu/Menu.js'
+import Cards from './Cards/Cards.js'
 import Gif from './GIF/Gif.js'
 import Button from './Button/Button.js';
-
 
 
 
 function App() {
   return (
     <div className="App">
+
+      <Cards/>
+      <div className='container page-section'>asd</div>
       <City/>
       <Menu/>
 
@@ -45,7 +48,6 @@ function App() {
             </div>  
           </div>
       </div>      
-      
       <div className='container'></div>
     </div>
   );

@@ -1,0 +1,265 @@
+/* .background {
+    background-image: url(/img/lightblue.png);
+} */
+
+.flex-grid {
+    display: flex;
+  }
+  .flex-grid .col {
+    flex: 1;
+  }
+  .flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-grid-thirds .col {
+    width: 32%;
+  }
+  
+
+.parent{
+    position:relative;
+}
+.card1{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    margin-left:25%;
+    margin-right:20%;
+}
+
+.button-card{
+    position: absolute;
+    top:32%;
+    left: 80px;
+    width:150px;
+    height:60px;
+    /* left:25%;
+    right:25%; */
+    margin: 12%; 
+    margin-left:20%;
+    margin-right:20%;
+}
+
+/* Sun animation */
+#sun-container{
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+#sun-offset{
+    height: 15%;
+    animation-name: rise-up;
+    animation-duration: 3s;
+}
+
+#sun{
+    background-image: url(/img/sun.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.footer{
+    background-image: url(/img/footer.svg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+/* Mobile Responsiveness */
+
+  @media (max-width: 380px) {
+    .flex-grid,
+    .flex-grid-thirds {
+      display: block;
+      .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+
+    .button-card{
+        margin-top: 135%;
+        width:110px;
+        height:40px;
+        margin-left:28%;
+        margin-right:20%;
+    }
+
+    .card1{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 320px;
+        width: 250px;
+        margin: 40%;
+        /* margin-left:25%;
+        margin-right:20%; */
+    }
+    
+  }
+  
+  @media only screen and (min-device-width : 381px) and (max-device-width : 462px) {
+    /* Styles */
+    .flex-grid,
+    .flex-grid-thirds {
+      display: block;
+      .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+    .card1{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 320px;
+        width: 250px;
+        margin: 40%;
+        /* margin-left:25%;
+        margin-right:20%; */
+    }
+    .button-card{
+        margin-top: 110%;
+        width:110px;
+        height:40px;
+        margin-left:38%;
+        margin-right:20%;
+    }
+
+
+    }
+
+@media only screen and (min-device-width : 463px) and (max-device-width : 550px) {
+    /* Styles */
+    .flex-grid,
+    .flex-grid-thirds {
+        display: block;
+        .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+        }
+    }
+    .card1{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 320px;
+        width: 250px;
+        margin: 40%;
+        margin-left: 70%;
+        /* margin-left:25%;
+        margin-right:20%; */
+    }
+    .button-card{
+        margin-top: 90%;
+        width:110px;
+        height:40px;
+        margin-left:65%;
+        margin-right:20%;
+    }
+
+}
+
+@media only screen and (min-device-width : 551px) and (max-device-width : 680px) {
+
+    .card1{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 250px;
+        width: 170px;
+        margin: 15%;
+        margin-left:10%;
+        margin-right:60%;
+        /* margin-left:25%;
+        margin-right:20%; */
+    }
+    .button-card{
+        margin-top:-20%;
+        width:90px;
+        height:35px;
+        margin-left:-10%;
+        margin-right:40%;
+    }
+
+}
+
+@media only screen and (min-device-width : 681px) and (max-device-width : 840px) {
+
+    .card1{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 40%;
+        width: 95%;
+        margin: 15%;
+        margin-left:1%;
+        margin-right:60%;
+        /* margin-left:25%;
+        margin-right:20%; */
+    }
+    .button-card{
+        margin-top:10%;
+        width:50%;
+        height:45px;
+        margin-left:-10%;
+        margin-right:40%;
+    }
+
+}
+@media only screen and (min-device-width : 841px) and (max-device-width : 1000px) {
+    .card1{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 300px;
+        width: 250px;
+        margin: 20%;
+        margin-left:1%;
+        margin-right:60%;
+        /* margin-left:25%;
+        margin-right:20%; */
+    }
+    .button-card{
+        margin-top:5%;
+        width:130px;
+        height:50px;
+        margin-left:-5%;
+        margin-right:60%;
+    }
+    
+  }
+
+  @media (min-width: 1002px) {
+    .button-card{
+        width:110px;
+        height:40px;
+        margin:40%;
+        margin-top: 75%;
+        margin-left: 24%;
+        /* margin-left:28%;
+        margin-right:20%; */
+    }
+
+    .card1{
+        margin-top: 80%;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 320px;
+        width: 250px;
+        /* margin: 40%; */
+        /* margin-left:25%;
+        margin-right:20%; */
+    }
+    
+  }
