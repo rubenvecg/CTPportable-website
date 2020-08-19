@@ -12,6 +12,8 @@
 
 .title{
     font-family: 'ocraExt', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
     color: #191D42;
     text-shadow: 5px 5px rgba(109, 109, 155, 0.2);    
 }
