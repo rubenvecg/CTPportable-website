@@ -43,13 +43,8 @@
     list-style-type: none;
 }
 
-#nav ul{
-    display: flex;
-    justify-content: space-between;
-}
-
 #nav ul li{   
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
     padding: 0px;
     margin: 0px auto;
@@ -59,10 +54,11 @@
 #nav ul li a{
     text-decoration: none;
     color: #E8377B;
-    margin: 10% auto;
     font-family: 'industry'; 
     font-weight: bold; 
-        
+    width: 25px;
+    height: 25px;
+    padding: 0px 50px;
 }
 
 #logo{
@@ -77,16 +73,9 @@
 
 .btn{
     width: 130px;
-    height: 40px;
+    height: auto;
     vertical-align: middle;
 }
 
-.left-item{
-    margin-left: 20px !important;
-    margin-right: 0px !important;
-}
 
-.right-item{
-    margin-left: 0px !important;
-    margin-right: 20px !important;
-}
+

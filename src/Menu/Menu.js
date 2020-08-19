@@ -7,9 +7,9 @@ const Menu = (props) => {
         <div id='menu'>
              <div id='nav'>
                 <ul>
-                    <li class='left-item'><a href='#'>Home</a></li>
-                    <li class='left-item'><a href='#'>About</a></li>
-                                      
+                    <li class='right-item'><a href='#'>Home</a></li>
+                    <li class='right-item'><a href='#'>About</a></li> 
+                    <li><a><img id='logo-img' src='./img/logo.png'></img></a></li>                                     
                     <li class='right-item'><a href='#'>Features</a></li>
                     <li class='right-item'><a href='#'><img className='btn' src='./img/downloadnow.png'></img></a></li>
                 </ul>
