@@ -3,7 +3,7 @@ import './City.css'
 
 const City = (props) => {
     return (        
-        <div className='container'>
+        <div id='home' className='container'>
             <div id='city' className='container'></div>
             <div id='sun-container' className='container'>
                 <div id='sun-offset'></div>

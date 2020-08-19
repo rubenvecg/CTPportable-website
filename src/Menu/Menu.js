@@ -7,11 +7,11 @@ const Menu = (props) => {
         <div id='menu'>
              <div id='nav'>
                 <ul>
-                    <li class='right-item'><a href='#'>Home</a></li>
-                    <li class='right-item'><a href='#'>About</a></li> 
-                    <li><a><img id='logo-img' src='./img/logo.png'></img></a></li>                                     
-                    <li class='right-item'><a href='#'>Features</a></li>
-                    <li class='right-item'><a href='#'><img className='btn' src='./img/downloadnow.png'></img></a></li>
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#about'>About</a></li> 
+                    <li><a href='https://cunytechprep.nyc' target='_blank'><img id='logo-img' src='./img/logo.png'></img></a></li>                                     
+                    <li><a href='#features'>Features</a></li>
+                    <li><a href='https://github.com/cosmicRover/CTP-Portable' target='_blank'><img className='btn' src='./img/downloadnow.png'></img></a></li>
                 </ul>
             </div>            
 
