@@ -11,44 +11,42 @@ import Button from './Button/Button.js';
 function App() {
   return (
     <div className="App">
-
-      <Cards/>
-      <div className='container page-section'>asd</div>
       <City/>
       <Menu/>
-
       <div id='about' className='container'>
           <div id='background' className='container'></div>        
           
           <div className='grid-container'>
             <div className='main-grid'>
 
-              <div id='title' className='inner-grid'><h1>CTP REMOTE LEARNING IN ONE PLACE</h1></div>
+              <div id='title' className='inner-grid'><h1>CTP REMOTE LEARNING IN ONE PLACE.</h1></div>
               <div id='left-grid' className='inner-grid'>
-                  <div><Gif source='/img/biggerrobot1.gif' width='100' height='100'/></div>
+                  <div className="shake-slow"><Gif source='/img/biggerrobot1.gif' width='200' height='200'/></div>
                   <div>
                     <h1>MOCK INTERVIEWS</h1>
                     <br></br>
-                    <p>Practice your soft skills by pairing up  with fellow students
+                    <p className="margin">Practice your soft skills by pairing up  with fellow students
                       for mock interviews.</p>
                   </div>
               </div>
               <div id='middle-grid' className='inner-grid'>
                   <div><Gif id='preview' source='/img/phone.png' width='375' height='375'/></div>
-                  <div><Button link='https://github.com/cosmicRover/CTP-Portable'/></div>
+                  <div className="shake-slow"><Button  link='https://github.com/cosmicRover/CTP-Portable'/></div>
               </div>
               <div id='right-grid' className='inner-grid'>
                   <div>
                     <h1>SESSION UPDATES</h1>
                     <br></br>
-                    <p>Stay up to date with your homeworks by getting up to date assignments.</p>
+                    <p className="margin">Stay up to date with your homeworks by getting up to date assignments. </p>
                   </div>
-                  <div><Gif source='/img/biggerrobot.gif' width='231' height='231'/></div>
+                  <div className="shake-slow bigger-robot"><Gif source='/img/biggerrobot.gif' width='331' height='331' /></div>
               </div>          
             </div>  
           </div>
       </div>      
-      <div className='container'></div>
+      <div className='container'>
+      <Cards/>
+      </div>
     </div>
   );
 }

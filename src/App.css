@@ -10,6 +10,7 @@
 }
 
 #background{
+    margin-top:5%;
     background-image: url(/img/wave_background.svg);
     background-size: contain;
     transform: scale(3, 1.2);    
@@ -22,6 +23,10 @@
     animation: slide 13s linear infinite;
 }
 
+.margin{
+    margin:50px;
+    font-size: 30px;
+}
 
 .grid-container{
     position: relative;
