@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'ocraExt' ;
+    src: url(/fonts/OCRAEXT.ttf) format('truetype'); 
+ }
+
+ @font-face {
+    font-family:"industry";
+    src:url("https://use.typekit.net/af/6dc482/00000000000000003b9adf53/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/6dc482/00000000000000003b9adf53/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/6dc482/00000000000000003b9adf53/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;
+    }
+
+#menu{    
+    text-align: center;
+    width: 100%;
+}
+
+#title-container{
+    position: absolute;
+    top: 150px;  
+    text-align: center;
+    width: 100%;   
+       
+}
+
+.title{
+    font-family: 'ocraExt', sans-serif;
+    color: #191D42;
+    text-shadow: 5px 5px rgba(109, 109, 155, 0.2);    
+}
+
+#nav{    
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin: 0 auto;
+    border: solid #E8377B 1px;
+    border-radius: 10px;
+    z-index: 1000;
+    list-style-type: none;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul li{   
+    display: inline;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px auto;
+    text-decoration: none;    
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: #E8377B;
+    margin: 10% auto;
+    font-family: 'industry'; 
+    font-weight: bold; 
+        
+}
+
+#logo{
+    padding: 0px !important;
+    margin: 0 auto;
+}
+
+#logo-img{
+    width: 162px;
+    height: 65px;
+}
+
+.btn{
+    width: 130px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.left-item{
+    margin-left: 20px !important;
+    margin-right: 0px !important;
+}
+
+.right-item{
+    margin-left: 0px !important;
+    margin-right: 20px !important;
+}

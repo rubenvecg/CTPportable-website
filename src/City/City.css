@@ -1,0 +1,36 @@
+@keyframes rise-up {
+    from {height: 60%;}
+    to {height: 15%;}
+}
+
+#city{
+    background-image: url(/img/background.png);
+    background-size: 100% 101%;
+    background-repeat: no-repeat;
+    transform: translateY(10%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;    
+}
+
+#sun-container{
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+#sun-offset{
+    height: 15%;
+    animation-name: rise-up;
+    animation-duration: 3s;
+}
+
+#sun{
+    background-image: url(/img/sun.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
