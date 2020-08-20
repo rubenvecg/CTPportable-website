@@ -5,7 +5,7 @@ import Menu from './Menu/Menu.js'
 import Cards from './Cards/Cards.js'
 import Gif from './GIF/Gif.js'
 import Button from './Button/Button.js';
-
+import Footer from './Footer/footer.js'
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
                   </div>
               </div>
               <div id='middle-grid' className='inner-grid'>
-                  <div><Gif id='preview' source='/img/phone.png' width='375' height='375'/></div>
+                  <div><Gif id='preview' source='/img/phone2.gif' width='230' height='400'/></div>
                   <div className="shake-slow"><Button  link='https://github.com/cosmicRover/CTP-Portable'/></div>
               </div>
               <div id='right-grid' className='inner-grid'>
@@ -46,6 +46,9 @@ function App() {
       </div>      
       <div className='container'>
       <Cards/>
+      </div>
+      <div className='container footer-margin'>
+      <Footer/>
       </div>
     </div>
   );

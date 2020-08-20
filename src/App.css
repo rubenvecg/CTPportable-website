@@ -107,3 +107,7 @@
     overflow: hidden;
 }
 
+.footer-margin{
+    margin-top: -500px;
+    /* margin-bottom: -500%; */
+}
