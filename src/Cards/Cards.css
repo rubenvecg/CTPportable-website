@@ -2,6 +2,9 @@
     background-image: url(/img/lightblue.png);
 } */
 
+#Cards{
+    z-index: 10;
+}
 .flex-grid {
     display: flex;
   }
@@ -38,8 +41,8 @@
     width:150px;
     height:60px;
     /* left:25%;
-    right:25%; */
-    margin: 12%; 
+    right:25%; 
+    margin: 12%;*/ 
     margin-left:20%;
     margin-right:20%;
 }
@@ -79,12 +82,13 @@
   @media (max-width: 380px) {
     .flex-grid,
     .flex-grid-thirds {
-      display: block;
-      .col {
+      display: block;      
+    }
+
+    .col {
         width: 100%;
         margin: 0 0 10px 0;
       }
-    }
 
     .button-card{
         margin-top: 135%;
@@ -111,12 +115,14 @@
     /* Styles */
     .flex-grid,
     .flex-grid-thirds {
-      display: block;
-      .col {
+      display: block;      
+    }
+
+    .col {
         width: 100%;
         margin: 0 0 10px 0;
       }
-    }
+
     .card1{
         position: relative;
         top: 0;
@@ -143,11 +149,14 @@
     .flex-grid,
     .flex-grid-thirds {
         display: block;
-        .col {
+        
+    }
+
+    .col {
         width: 100%;
         margin: 0 0 10px 0;
         }
-    }
+
     .card1{
         position: relative;
         top: 0;

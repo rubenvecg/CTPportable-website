@@ -6,11 +6,13 @@ import Cards from './Cards/Cards.js'
 import Gif from './GIF/Gif.js'
 import Button from './Button/Button.js';
 import Footer from './Footer/footer.js'
-
+import About from './About/About.js';
+import Sun from './Sun/Sun.js'
 
 function App() {
   return (
     <div className="App">
+
       <City/>
       <Menu/>
       <div id='about' className='container'>
@@ -45,11 +47,24 @@ function App() {
           </div>
       </div>      
       <div className='container'>
-      <Cards/>
+        <City/>
+        <Menu/>
+      </div>    
+
+      <div className='container'>
+        <About/>
       </div>
+
+
+      <div className='container'>
+        <Sun/>
+        <Cards/>
+      </div>
+
       <div className='container footer-margin'>
       <Footer/>
       </div>
+     
     </div>
   );
 }
