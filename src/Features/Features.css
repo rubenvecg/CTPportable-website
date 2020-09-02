@@ -1,28 +1,42 @@
-#features{
-    background: #BFD5F7; 
-    height: 100%;       
+#features{    
+    padding-top: 150px;      
 }
 
 .card-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 150px;
+    grid-template-columns: repeat(3, 350px);    
+    
 }
 
-.card, .card-button{
-    display: block;
-    margin: 0 auto;
+.card-container{
+    position: relative;
+    background-image: url(/img/flashcard1.png);
+    background-size: cover; 
+    width: 85%;
+    height: 310px;   
 }
 
-.card{
-    width: 275px;
-    height: 331px;
+.card-button, .gif-container{
+    position: absolute;     
+}
+
+.gif-container{
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 50px;
 }
 
 .card-button{
     width: 100px;
-    height: 40px;    
+    height: 40px;
+    bottom: 25px; 
+    left: 50%;
+    margin-left: -50px;    
 }
+
+
+
 
 /* Mobile Responsiveness */
 

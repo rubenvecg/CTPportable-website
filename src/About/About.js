@@ -6,8 +6,8 @@ import './About.css'
 const About = (props) => {
     return (
         <div id='about'>
-          <div id='background' className='first'></div>            
-          <div className='grid-container'>
+          <div id='background' className='first'></div> 
+          <div className='grid-container'>          
             <div className='main-grid'>
 
               <div id='title' className='inner-grid'><h1>CTP REMOTE LEARNING IN ONE PLACE</h1></div>
@@ -21,7 +21,7 @@ const About = (props) => {
                   </div>
               </div>
               <div id='middle-grid' className='inner-grid'>
-                  <div><Gif id='preview' source='/img/phone.png' width='375' height='375'/></div>
+                  <div><Gif id='preview' source='/img/phone2.gif' width='236' height='400'/></div>
                   <div><Button link='https://github.com/cosmicRover/CTP-Portable'/></div>
               </div>
               <div id='right-grid' className='inner-grid'>

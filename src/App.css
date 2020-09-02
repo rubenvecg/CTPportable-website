@@ -9,7 +9,7 @@
 
 #home{
   width: 100%;
-  height: 100%;    
+  height: 100%;      
 }
 
 #title-container{
@@ -26,11 +26,6 @@
   text-shadow: 5px 5px rgba(109, 109, 155, 0.2);    
 }
 
-@keyframes dawn{
-from { background: #050014; }
-to { background: #BFD5F7; }
-}
-
 @font-face {
 font-family: 'ocraExt' ;
 src: url(/fonts/OCRAEXT.ttf) format('truetype'); 
@@ -45,21 +40,25 @@ font-display:auto;font-style:normal;font-weight:400;
 
 
 html, body{
-  height: 100%;  
+  height: 100%; 
+  overflow-x: hidden; 
 }
 
 body{
-  background: #BFD5F7;
+  background: linear-gradient(to bottom, #a6b3ec 80%, #050014);
   color: #191D42;
   padding: 0;
-  overflow-x: hidden;
-  animation-name: dawn;
-  animation-duration: 3s;
+   
 }
   
 .container{    
   position: relative;
   margin: 0 auto;  
+}
+
+.full-screen{
+  width: 100%;
+  height: 100%;
 }
 
 .section{

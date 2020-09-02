@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = (props) => {
     return (
         <div className='footer-container'>
-            <div className='blue-bg'>
+            
 
                 <div id='icons-cont'>
                     <div id='icons'>
@@ -19,7 +19,7 @@ const Footer = (props) => {
 
                     </div>
                 </div>
-            </div>
+            
             
         </div>
        
