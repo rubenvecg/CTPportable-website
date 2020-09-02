@@ -23,11 +23,13 @@
     list-style-type: none;
     text-align: center;
     padding: 0px; 
+    
 }
 
 .navbar ul li{
     display: inline-block;   
     vertical-align: middle;
+    opacity: 1;
 }
 
 #nav ul li a{

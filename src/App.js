@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import City from './City/City.js';
 import Menu from './Menu/Menu.js'
-import Cards from './Cards/Cards.js'
+import Features from './Features/Features.js'
 import Gif from './GIF/Gif.js'
 import Button from './Button/Button.js';
 import About from './About/About.js';
@@ -26,12 +26,12 @@ function App() {
             <City/>
     </div>
 
-    <div class='container section'>
+    <div class='container full-screen'>
       <About/>
     </div>
 
     <div class='container section'>
-      <Cards/>
+      <Features/>      
     </div>
 
     <Footer/>
