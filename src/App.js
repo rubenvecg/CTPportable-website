@@ -7,30 +7,34 @@ import Gif from './GIF/Gif.js'
 import Button from './Button/Button.js';
 import About from './About/About.js';
 import Sun from './Sun/Sun.js'
+import Footer from './Footer/Footer.js'
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div id='app-container'>
 
-      <div className='container'>
-        <City/>
-        <Menu/>
-      </div>    
+    <Menu/>
 
-      <div className='container'>
-        <About/>
-      </div>
+    <div id='home' class='container'>
 
-      <div className='container'>
-        <Sun/>
-        <Cards/>
-      </div>
+            <div id='title-container'>
+                <h1 className='title shake-slow'>CTP PORTABLE</h1>            
+            </div>
 
-      
-      
-      
+            <City/>
+    </div>
+
+    <div class='container section'>
+      <About/>
+    </div>
+
+    <div class='container section'>
+      <Cards/>
+    </div>
+
+    <Footer/>
 
     </div>
   );

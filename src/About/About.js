@@ -5,8 +5,8 @@ import './About.css'
 
 const About = (props) => {
     return (
-        <div id='about' className='container'>
-          <div id='background' className='container'></div>            
+        <div id='about'>
+          <div id='background' className='first'></div>            
           <div className='grid-container'>
             <div className='main-grid'>
 

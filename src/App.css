@@ -1,4 +1,76 @@
 .App{    
-    margin: 0 auto;
-    height: 100%;
+  margin: 0 auto;
+  height: 100%;
 }
+
+#app-container{
+  height: 100%;
+}
+
+#home{
+  width: 100%;
+  height: 100%;    
+}
+
+#title-container{
+  position: absolute;
+  top: 150px;  
+  text-align: center;
+  width: inherit;      
+}
+
+.title{
+  font-family: 'ocraExt', sans-serif;
+  font-size: 70px;
+  font-weight: bold;    
+  text-shadow: 5px 5px rgba(109, 109, 155, 0.2);    
+}
+
+@keyframes dawn{
+from { background: #050014; }
+to { background: #BFD5F7; }
+}
+
+@font-face {
+font-family: 'ocraExt' ;
+src: url(/fonts/OCRAEXT.ttf) format('truetype'); 
+}
+
+@font-face {
+font-family:"industry";
+src:url("https://use.typekit.net/af/6dc482/00000000000000003b9adf53/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/6dc482/00000000000000003b9adf53/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/6dc482/00000000000000003b9adf53/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+
+
+html, body{
+  height: 100%;  
+}
+
+body{
+  background: #BFD5F7;
+  color: #191D42;
+  padding: 0;
+  overflow-x: hidden;
+  animation-name: dawn;
+  animation-duration: 3s;
+}
+  
+.container{    
+  position: relative;
+  margin: 0 auto;  
+}
+
+.section{
+  width: 1000px;
+  height: 630px;
+}
+
+
+
+
+
+
+
+

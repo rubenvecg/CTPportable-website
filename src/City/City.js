@@ -4,8 +4,8 @@ import './City.css'
 
 const City = (props) => {
     return (        
-        <div id='home' className='container'>
-            <div id='city' className='container'></div>
+        <div>
+            <div id='city'></div>
             <Sun />
         </div> 
     );
