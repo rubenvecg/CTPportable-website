@@ -1,82 +1,29 @@
-/* .background {
-    background-image: url(/img/lightblue.png);
-} */
-
-#Cards{
-    z-index: 10;
-}
-.flex-grid {
-    display: flex;
-  }
-  .flex-grid .col {
-    flex: 1;
-  }
-  .flex-grid-thirds {
-    display: flex;
-    justify-content: space-between;
-  }
-  .flex-grid-thirds .col {
-    width: 32%;
-  }
-  
-
-.parent{
-    position:relative;
-}
-.card1{
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 400px;
-    width: 300px;
-    margin: 20px;
-    margin-left:25%;
-    margin-right:20%;
+#features{
+    background: #BFD5F7; 
+    height: 100%;       
 }
 
-.button-card{
-    position: absolute;
-    top:32%;
-    left: 80px;
-    width:150px;
-    height:60px;
-    /* left:25%;
-    right:25%; 
-    margin: 12%;*/ 
-    margin-left:20%;
-    margin-right:20%;
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 150px;
 }
 
-/* Sun animation */
-#sun-container{
-    position: absolute;
-    top: 0;
-    left: 0;    
-}
-
-#sun-offset{
-    height: 15%;
-    animation-name: rise-up;
-    animation-duration: 3s;
-}
-
-#sun{
-    background-image: url(/img/sun.png);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
+.card, .card-button{
+    display: block;
     margin: 0 auto;
 }
 
-/* .footer{
-    background-image: url(/img/footer.svg);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-} */
+.card{
+    width: 275px;
+    height: 331px;
+}
+
+.card-button{
+    width: 100px;
+    height: 40px;    
+}
+
 /* Mobile Responsiveness */
 
   @media (max-width: 380px) {

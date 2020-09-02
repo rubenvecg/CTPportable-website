@@ -1,17 +1,17 @@
 @keyframes rise-up {
-    from {height: 60%;}
-    to {height: 15%;}
+    from {height: 500px;}
+    to {height: 65px;}
 }
 
-.sun-container{
+.sun-cont{
     position: relative;
     top: 0;
     left: 0;
-    z-index: -1;    
+    z-index: -2;    
 }
 
 .sun-offset{
-    height: 15%;
+    height: 65px;
     animation-name: rise-up;
     animation-duration: 3s;
 }

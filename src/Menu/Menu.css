@@ -1,21 +1,5 @@
 #menu{    
-    text-align: center;
-    width: 100%;
-}
-
-#title-container{
-    position: absolute;
-    top: 150px;  
-    text-align: center;
-    width: 100%;      
-}
-
-.title{
-    font-family: 'ocraExt', sans-serif;
-    font-size: 70px;
-    font-weight: bold;
-    color: #191D42;
-    text-shadow: 5px 5px rgba(109, 109, 155, 0.2);    
+    text-align: center;    
 }
 
 #nav{    
@@ -25,7 +9,7 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 800px;
     margin: 0 auto;
     border: solid #E8377B 1px;
     border-radius: 10px;
@@ -33,24 +17,25 @@
     list-style-type: none;
 }
 
-#nav ul li{   
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0px;
-    margin: 0px auto;
-    text-decoration: none;    
+#nav ul{   
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    list-style-type: none;
+    text-align: center;
+    padding: 0px; 
 }
 
-
+.navbar ul li{
+    display: inline-block;   
+    vertical-align: middle;
+}
 
 #nav ul li a{
     text-decoration: none;
     color: #E8377B;
     font-family: 'industry'; 
-    font-weight: bold; 
-    width: 25px;
-    height: 25px;
-    padding: 0px 15px 0px 80px;
+    font-weight: bold;  
+    margin: auto;     
 }
 
 #logo{
