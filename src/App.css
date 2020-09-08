@@ -40,12 +40,12 @@ font-display:auto;font-style:normal;font-weight:400;
 
 
 html, body{
-  height: 100%; 
-  overflow-x: hidden; 
+  height: 100%;
+  overflow-x: hidden;  
 }
 
 body{
-  background: linear-gradient(to bottom, #a6b3ec 80%, #050014);
+  background: linear-gradient(to bottom, #050014  80%, #a6b3ec);
   color: #191D42;
   padding: 0;
    
@@ -63,7 +63,7 @@ body{
 
 .section{
   width: 1000px;
-  height: 630px;
+  height: 530px;
 }
 
 
