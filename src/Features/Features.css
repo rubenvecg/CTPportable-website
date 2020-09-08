@@ -13,7 +13,8 @@
     background-image: url(/img/flashcard1.png);
     background-size: cover; 
     width: 85%;
-    height: 310px;   
+    height: 310px;
+    border-radius: 20px;   
 }
 
 .card-button, .gif-container{

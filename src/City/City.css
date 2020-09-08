@@ -1,13 +1,14 @@
 @keyframes dawn{
-    from { background-position: 100% 185%; }
-    to { background-position: 100% 210%;  }
+    from { background-position: 100% 10%; }
+    to { background-position: 100% 30%;  }
 }
 
-#city, #sky{
+#city{
     width: 100%;
-    height: 600px;
+    height: 100%;
     background-image: url(/img/background.png);
-    background-size: 100% 100%;    
+    background-size: 100% 40vw; 
+    background-position: center bottom;
     background-repeat: no-repeat;
     position: absolute;
     bottom: 0;
@@ -21,9 +22,9 @@
     top: 0;
     left: 0;
     z-index: -2;
-    background: linear-gradient(to top, #a6b3ec 75%, #050014);
-    background-size: 100% 220%;
-    background-position: 100% 210%;
+    background: linear-gradient(to top, #a6b3ec 70%, #050014);
+    background-size: 100% 150%;
+    background-position: 100% 30%;
     animation-name: dawn;
     animation-duration: 3s;
 }
