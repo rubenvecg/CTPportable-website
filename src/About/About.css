@@ -43,27 +43,15 @@
 
 
 .grid-container{
-    position: relative;
-    top: 10%;
-    left: 5%;   
+    position: relative;       
 }
 
 .main-grid{
-    display: grid;
-    grid-template-rows: 50px auto;
-    grid-template-columns: 1fr 406px 1fr;
-    grid-template-areas: 
-    'title title title'
-    'left-grid middle-grid right-grid';
-    width: 90%;
-    height: 80%;
     align-items: center;
     justify-content: center; 
-    grid-gap: 20px;    
-    
+    grid-gap: 20px; 
+    margin: 0 auto;     
 }
-
-
 
 .main-grid h1, p{
     text-align: center;
@@ -118,4 +106,70 @@
     grid-gap: 20px;
 }
 
+@media  screen and (min-width: 990px){
+    .main-grid{
+        display: grid; 
+        width: 950px;
+        height: 525px;
+        grid-template-rows: 50px auto;
+        grid-template-columns: 1fr 300px 1fr;
+        grid-template-areas: 
+        'title title title'
+        'left-grid middle-grid right-grid';
+    }
+
+    .grid-container{
+        top: 10%;   
+    }
+}
+
+@media  screen and (min-width: 810px) and (max-width:989px) {
+    .main-grid{
+        display: grid; 
+        width: 600px;
+        height: 525px;
+        grid-template-rows: 50px auto;
+        grid-template-columns: 1fr 300px 1fr;
+        grid-template-areas: 
+        'title title title'
+        'left-grid middle-grid right-grid';
+    }
+
+    .grid-container{
+        top: 10%;   
+    }
+}
+
+@media  screen and (min-width: 651px) and (max-width:809px) {
+    
+    .main-grid{
+        display: grid; 
+        width: 600px;
+        height: 525px;
+        grid-template-rows: 50px auto;
+        grid-template-columns: 250px 300px;
+        grid-template-areas: 
+        'title title'
+        'middle-grid left-grid'
+        'middle-grid right-grid';
+        transform: scale(0.85);
+    }
+
+    .grid-container{
+        top: 5%;   
+    }
+
+    h1{
+        font-size: 24px;     
+    }
+
+    
+    #left-grid .gif-cont, #right-grid .gif-cont{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width:650px) {}
 

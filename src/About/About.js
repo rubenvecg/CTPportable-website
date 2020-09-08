@@ -15,7 +15,7 @@ const About = (props) => {
 
               <div id='title' className='inner-grid'><h1>CTP REMOTE LEARNING IN ONE PLACE</h1></div>
               <div id='left-grid' className='inner-grid'>
-                  <div><Gif source='/img/biggerrobot1.gif' width='100' height='100'/></div>
+                  <div className='gif-cont'><Gif source='/img/biggerrobot1.gif' width='100' height='100'/></div>
                   <div>
                     <h1>MOCK INTERVIEWS</h1>
                     <br></br>
@@ -33,7 +33,7 @@ const About = (props) => {
                     <br></br>
                     <p>Stay up to date with your homeworks by getting up to date assignments.</p>
                   </div>
-                  <div><Gif source='/img/biggerrobot.gif' width='231' height='231'/></div>
+                  <div className='gif-cont'><Gif source='/img/biggerrobot.gif' width='231' height='231'/></div>
               </div>          
             </div>  
           </div>

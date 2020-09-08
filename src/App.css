@@ -58,13 +58,17 @@ body{
 
 .full-screen{
   width: 100%;
-  height: 100%;
+  height: 600px;
 }
 
 .section{
   width: 1000px;
   height: 530px;
 }
+
+@media  screen and (min-width: 651px) and (max-width:989px) {}
+
+@media screen and (min-width: 0px) and (max-width:650px) {}
 
 
 
