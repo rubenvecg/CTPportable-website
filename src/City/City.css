@@ -3,11 +3,29 @@
     to { background-position: 100% 30%;  }
 }
 
+@media screen and (min-width: 800px){
+    #city{
+        background-size: 100% 90vh; 
+    }
+}
+
+@media screen and (max-width: 799px){
+    #city{
+        background-size: 100% 60vh; 
+    }
+}
+
+@media screen and (max-width: 550px){
+    #city{
+        background-size: 100% 40vh; 
+    }
+}
+
 #city{
     width: 100%;
     height: 100%;
     background-image: url(/img/background.png);
-    background-size: 100% 40vw; 
+    
     background-position: center bottom;
     background-repeat: no-repeat;
     position: absolute;
