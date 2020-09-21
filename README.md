@@ -6,6 +6,8 @@ When we were brainstorming ideas to hack the home learning environment, we reali
 CTP Portable is the app where CTP fellows can check their tasks, converse with other fellows/mentor, and learn more about their up-coming CTP Sessions! This was the landing page that we built to help students learn more about the app.
 
 **DEMO**
+
+
 ![Recordit GIF](https://media.giphy.com/media/PjrkFNSyeuDeZykVyQ/giphy.gif)
 
 
