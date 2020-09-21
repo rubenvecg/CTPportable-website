@@ -78,6 +78,7 @@
         left: 160px;
         top: 0px;
         z-index: 1000;
+        text-decoration: none !important;
         color : #E8377B !important;
         padding: 0px;  
         background: #050014;
