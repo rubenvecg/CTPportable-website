@@ -26,11 +26,11 @@ function App() {
             <City/>
     </div>
 
-    <div class='container full-screen'>
+    <div id ='about-sec' class='container full-screen'>
       <About/>
     </div>
 
-    <div class='container section'>
+    <div id ='features-sec' class='container section'>
       <Features/>      
     </div>
 

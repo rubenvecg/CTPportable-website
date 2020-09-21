@@ -1,7 +1,51 @@
-@keyframes rise-up {
-    from {height: 500px;}
-    to {height: 65px;}
+@media screen and (min-width: 800px){
+    @keyframes rise-up {
+        from {height: 500px;}
+        to {height: 65px;}
+    }
+
+    .sun-offset{
+        height: 65px;
+    }
+
+    .sun{
+        width: 300px;
+        height: 300px;
+    }
 }
+
+@media screen and (max-width: 799px){
+    @keyframes rise-up {
+        from {height: 500px;}
+        to {height: 245px;}
+    }
+
+    .sun-offset{
+        height: 245px;
+    }
+
+    .sun{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    @keyframes rise-up {
+        from {height: 500px;}
+        to {height: 370px;}
+    }
+
+    .sun-offset{
+        height: 370px;
+    }
+
+    .sun{
+        width: 130px;
+        height: 130px;
+    }
+}
+
 
 .sun-cont{
     position: relative;
@@ -11,7 +55,6 @@
 }
 
 .sun-offset{
-    height: 65px;
     animation-name: rise-up;
     animation-duration: 3s;
 }
@@ -20,8 +63,5 @@
     background-image: url(/img/sun.png);
     background-size: auto 100%;
     background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }

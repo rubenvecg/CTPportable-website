@@ -10,7 +10,7 @@
 .background{
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 100%;
+    background-position: center 80%;
     transform: translateY(-5px);
     position: absolute;
     z-index: -1;
@@ -119,11 +119,11 @@
     }
 
     .grid-container{
-        top: 10%;   
+        top: 10%;           
     }
 }
 
-@media  screen and (min-width: 810px) and (max-width:989px) {
+@media  screen and (min-width: 801px) and (max-width:989px) {
     .main-grid{
         display: grid; 
         width: 600px;
@@ -133,10 +133,14 @@
         grid-template-areas: 
         'title title title'
         'left-grid middle-grid right-grid';
-    }    
+    }   
+    
+    .grid-container{
+        top: 10%;
+    }
 }
 
-@media  screen and (min-width: 550px) and (max-width:809px) {
+@media  screen and (min-width: 550px) and (max-width:800px) {
     
     .main-grid{
         display: grid; 
@@ -163,6 +167,10 @@
         width: 75px;
         height: 75px;
     }    
+
+    .grid-container{
+        top: 5%;           
+    }
 }
 
 @media screen and (max-width:549px) {
@@ -183,10 +191,6 @@
         'right-grid'
         'middle-grid' 
         'left-grid';
-    }
-
-    .title{
-        width: 500px;
     }
 
     .inner-grid div{

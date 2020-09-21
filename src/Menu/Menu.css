@@ -1,44 +1,104 @@
-#menu{    
-    text-align: center;    
-}
+@media screen and (min-width: 801px){
+    #nav{    
+        position: fixed;
+        top: 10px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        margin: 0 auto;
+        border: solid #E8377B 1px;
+        border-radius: 10px;
+        z-index: 1000;
+        list-style-type: none;
+    }
 
-#nav{    
-    position: fixed;
-    top: 10px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
-    margin: 0 auto;
-    border: solid #E8377B 1px;
-    border-radius: 10px;
-    z-index: 1000;
-    list-style-type: none;
-}
-
-#nav ul{   
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); 
-    list-style-type: none;
-    text-align: center;
-    padding: 0px; 
+    #nav ul{   
+        display: grid;
+        grid-template-areas: 'home about logo features download';
+        grid-template-columns: repeat(5, 1fr); 
+        list-style-type: none;
+        text-align: center;
+        padding: 0px; 
+        
+    }
     
+    .navbar ul li{
+        display: inline-block;   
+        vertical-align: middle;
+        opacity: 1;
+    }
+
+    #toggle-btn{
+        display: none;
+        height: 0px;
+    }
 }
 
-.navbar ul li{
-    display: inline-block;   
-    vertical-align: middle;
-    opacity: 1;
+@media screen and (max-width: 800px){
+        
+    #nav{    
+        position: fixed;
+        top: 0px;
+        left: 0px;      
+        width: 200px;
+        height: 100%;
+        background : #050014;
+        z-index: 1000;
+        list-style-type: none;
+        -webkit-transition: left 1s;
+    }
+    
+    #nav ul{  
+        display: grid;        
+        text-align: center;
+        padding-top: 10px; 
+        grid-template-areas: 
+        'logo' 
+        'home'
+        'about'
+        'features'
+        'download';
+        grid-template-rows: 100px repeat(4, 40px);        
+    }
+
+    #nav ul li{
+        display: block; 
+        margin-top: 0px;       
+    }
+
+    #logo-btn{
+        margin-bottom: 30px;
+    }
+
+    #toggle-btn{
+        font-size: 40px;
+        position: fixed;
+        left: 160px;
+        top: 0px;
+        z-index: 1000;
+        color : #E8377B !important;
+        padding: 0px;  
+        background: #050014;
+        opacity: 0.6;               
+    }
+
+    #toggle-btn:hover{
+        opacity: 1;
+    }
+
+    .collapsed{
+        left: -200px !important;
+    }
+    
+    .fixed-left{
+        left: 0px !important;
+    }
+
 }
 
-#nav ul li a{
-    text-decoration: none;
-    color: #E8377B;
-    font-family: 'industry'; 
-    font-weight: bold;  
-    margin: auto;     
-}
+
 
 #logo{
     padding: 0px !important;
@@ -56,11 +116,42 @@
     vertical-align: middle;
 }
 
+#nav ul li a{
+    text-decoration: none;
+    color: #E8377B;
+    font-family: 'industry'; 
+    font-weight: bold;  
+    margin: auto;     
+}  
 
-@media screen and (max-width: 990px){
-    #nav{    
-        top: 0px;
-    }
+#home-btn{
+    grid-area: home;
 }
+
+#about-btn{
+    grid-area: about;
+}
+
+#logo-btn{
+    grid-area: logo;
+}
+
+#features-btn{
+    grid-area: features;
+}
+
+#download-btn{
+    grid-area: download;
+}
+
+#toggle-btn{
+    cursor: pointer;   
+    -webkit-transition: all 1s;    
+}
+
+
+
+
+
 
 
