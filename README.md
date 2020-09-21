@@ -5,7 +5,7 @@ When we were brainstorming ideas to hack the home learning environment, we reali
 ## What it does
 CTP Portable is the app where CTP fellows can check their tasks, converse with other fellows/mentor, and learn more about their up-coming CTP Sessions! This was the landing page that we built to help students learn more about the app.
 
-You can view the final wbesite [here](https://youthful-shirley-6e5cb3.netlify.app/).
+You can view the final website [here](https://youthful-shirley-6e5cb3.netlify.app/).
 
 
 **DEMO**
