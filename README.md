@@ -1,4 +1,3 @@
-
 ## About CTP Portable📱🌟📚
 ## Inspiration
 When we were brainstorming ideas to hack the home learning environment, we realized that we relied on several apps and websites to communicate with students and manage our tasks. Keeping track of our responsibilities is already complicated! As the upcoming cohort of CUNY Tech Prep, we wanted to find a way to monitor our work and connect with fellows in one space. This is where CTP-Portable comes in!
@@ -6,8 +5,10 @@ When we were brainstorming ideas to hack the home learning environment, we reali
 ## What it does
 CTP Portable is the app where CTP fellows can check their tasks, converse with other fellows/mentor, and learn more about their up-coming CTP Sessions! This was the landing page that we built to help students learn more about the app.
 
-**DEMO**
+## Published app available
+[https://youthful-shirley-6e5cb3.netlify.app/]
 
+**DEMO**
 ![Recordit GIF](https://media.giphy.com/media/PjrkFNSyeuDeZykVyQ/giphy.gif)
 
 
